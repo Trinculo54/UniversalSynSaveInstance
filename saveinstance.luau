@@ -2229,8 +2229,7 @@ local function synsaveinstance(CustomOptions, CustomOptions2)
 											end
 										end
 
-										value = "-- Saved by UniversalSynSaveInstance https://discord.gg/wx4ThpAsmw\n\n"
-											.. (LinkedSourceNotEmpty and "-- Original Source: https://assetdelivery.roblox.com/v1/asset/?id=" .. (LinkedSource or LinkedSourceUrl) .. "\n\n" or "")
+										value = .. (LinkedSourceNotEmpty and "-- Original Source: https://assetdelivery.roblox.com/v1/asset/?id=" .. (LinkedSource or LinkedSourceUrl) .. "\n\n" or "")
 											.. value
 									end
 								end
